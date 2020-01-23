@@ -12,6 +12,7 @@ using System.Diagnostics;
 
 namespace Xamarin.Android.Build.Tests {
 	[TestFixture]
+	[Category ("Node-2")]
 	[Parallelizable (ParallelScope.Children)]
 	public class ManagedResourceParserTests : BaseTest {
 		const string ValuesXml = @"<?xml version=""1.0"" encoding=""utf-8""?>
